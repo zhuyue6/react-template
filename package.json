@@ -1,0 +1,27 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "react项目demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "zhuyue6",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
+    "antd": "^4.21.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^1.3.2",
+    "less": "^4.1.3",
+    "vite": "^2.9.14"
+  }
+}
