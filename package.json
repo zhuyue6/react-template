@@ -4,13 +4,16 @@
   "description": "react项目demo",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "test": "jest"
   },
   "author": "zhuyue6",
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
+    "@types/react-test-renderer": "^18.0.0",
     "antd": "^4.21.7",
+    "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -18,10 +21,18 @@
     "redux": "^4.2.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.7",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^1.3.2",
+    "jest-environment-jsdom": "^29.0.0",
     "less": "^4.1.3",
+    "react-test-renderer": "^18.2.0",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2",
     "vite": "^2.9.14"
   }
 }

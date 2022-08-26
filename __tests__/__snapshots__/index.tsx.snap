@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照测试 react 组件 1`] = `
+<div
+  className="a"
+>
+  user
+</div>
+`;
